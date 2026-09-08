@@ -1,0 +1,19 @@
+version: '3.8'
+
+services:
+  policy_rag_api:
+    build: .
+    container_name: policy_rag_assistant
+    ports:
+      - "8001:8001"
+    env_file:
+      - .env
+    volumes:
+      - ./qdrant_storage:/app/qdrant_storage
+      - ./sample_docs/pdf_files:/app/sample_docs/pdf_files
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8001/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3

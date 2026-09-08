@@ -1,0 +1,194 @@
+[
+  {
+    "id": "q01",
+    "question": "What is the initial home office equipment setup stipend?",
+    "expected_document": "Remote Work and Equipment Policy",
+    "expected_page": 1,
+    "expected_clause": "Section 2.0",
+    "expected_keywords": ["1,000", "stipend"]
+  },
+  {
+    "id": "q02",
+    "question": "How much is the annual equipment refresh allowance?",
+    "expected_document": "Remote Work and Equipment Policy",
+    "expected_page": 1,
+    "expected_clause": "Section 2.0",
+    "expected_keywords": ["250", "annual"]
+  },
+  {
+    "id": "q03",
+    "question": "What are the required core working hours for remote staff?",
+    "expected_document": "Remote Work and Equipment Policy",
+    "expected_page": 1,
+    "expected_clause": "Section 1.0",
+    "expected_keywords": ["10:00 am", "4:00 pm", "est"]
+  },
+  {
+    "id": "q04",
+    "question": "Within how many days must equipment be returned after leaving the company?",
+    "expected_document": "Remote Work and Equipment Policy",
+    "expected_page": 2,
+    "expected_clause": "Section 3.0",
+    "expected_keywords": ["14", "calendar days"]
+  },
+  {
+    "id": "q05",
+    "question": "What VPN must be used when working on public Wi-Fi?",
+    "expected_document": "Remote Work and Equipment Policy",
+    "expected_page": 2,
+    "expected_clause": "Section 4.0",
+    "expected_keywords": ["wireguard", "vpn"]
+  },
+  {
+    "id": "q06",
+    "question": "What is the vendor committed monthly uptime SLA percentage?",
+    "expected_document": "Master SaaS Vendor Agreement",
+    "expected_page": 1,
+    "expected_clause": "Section 2.0",
+    "expected_keywords": ["99.9%", "uptime"]
+  },
+  {
+    "id": "q07",
+    "question": "What service credit applies if monthly uptime drops below 99.5%?",
+    "expected_document": "Master SaaS Vendor Agreement",
+    "expected_page": 1,
+    "expected_clause": "Section 2.0",
+    "expected_keywords": ["10%", "service credit"]
+  },
+  {
+    "id": "q08",
+    "question": "What service credit applies if monthly uptime drops below 99.0%?",
+    "expected_document": "Master SaaS Vendor Agreement",
+    "expected_page": 1,
+    "expected_clause": "Section 2.0",
+    "expected_keywords": ["25%", "service credit"]
+  },
+  {
+    "id": "q09",
+    "question": "What is the aggregate liability cap under the SaaS agreement?",
+    "expected_document": "Master SaaS Vendor Agreement",
+    "expected_page": 2,
+    "expected_clause": "Section 3.0",
+    "expected_keywords": ["twelve", "12 months", "fees paid"]
+  },
+  {
+    "id": "q10",
+    "question": "How many days notice are required to cure a material breach before termination?",
+    "expected_document": "Master SaaS Vendor Agreement",
+    "expected_page": 2,
+    "expected_clause": "Section 4.0",
+    "expected_keywords": ["30", "calendar days", "cure"]
+  },
+  {
+    "id": "q11",
+    "question": "What encryption standard is required for Tier 3 customer records at rest?",
+    "expected_document": "Data Privacy and Security Policy",
+    "expected_page": 1,
+    "expected_clause": "Section 1.0",
+    "expected_keywords": ["aes-256"]
+  },
+  {
+    "id": "q12",
+    "question": "What is the minimum character length required for employee passwords?",
+    "expected_document": "Data Privacy and Security Policy",
+    "expected_page": 1,
+    "expected_clause": "Section 2.0",
+    "expected_keywords": ["16 characters"]
+  },
+  {
+    "id": "q13",
+    "question": "How often must corporate passwords be rotated?",
+    "expected_document": "Data Privacy and Security Policy",
+    "expected_page": 1,
+    "expected_clause": "Section 2.0",
+    "expected_keywords": ["90 days"]
+  },
+  {
+    "id": "q14",
+    "question": "After how many minutes of inactivity must workstations automatically lock?",
+    "expected_document": "Data Privacy and Security Policy",
+    "expected_page": 1,
+    "expected_clause": "Section 2.0",
+    "expected_keywords": ["10 minutes"]
+  },
+  {
+    "id": "q15",
+    "question": "How quickly must suspected security incidents be escalated to the SOC?",
+    "expected_document": "Data Privacy and Security Policy",
+    "expected_page": 2,
+    "expected_clause": "Section 3.0",
+    "expected_keywords": ["4 hours", "soc"]
+  },
+  {
+    "id": "q16",
+    "question": "What is the deadline to notify affected customers of a confirmed data breach?",
+    "expected_document": "Data Privacy and Security Policy",
+    "expected_page": 2,
+    "expected_clause": "Section 3.0",
+    "expected_keywords": ["72 hours"]
+  },
+  {
+    "id": "q17",
+    "question": "Under what flight duration is economy class mandatory?",
+    "expected_document": "Employee Travel and Expense Policy",
+    "expected_page": 1,
+    "expected_clause": "Section 1.0",
+    "expected_keywords": ["under 6 hours", "economy"]
+  },
+  {
+    "id": "q18",
+    "question": "What is the daily meal per diem for domestic travel?",
+    "expected_document": "Employee Travel and Expense Policy",
+    "expected_page": 1,
+    "expected_clause": "Section 2.0",
+    "expected_keywords": ["$75"]
+  },
+  {
+    "id": "q19",
+    "question": "What is the daily meal per diem for international travel?",
+    "expected_document": "Employee Travel and Expense Policy",
+    "expected_page": 1,
+    "expected_clause": "Section 2.0",
+    "expected_keywords": ["$100"]
+  },
+  {
+    "id": "q20",
+    "question": "Within how many days must travel expenses be submitted?",
+    "expected_document": "Employee Travel and Expense Policy",
+    "expected_page": 2,
+    "expected_clause": "Section 3.0",
+    "expected_keywords": ["30 calendar days"]
+  },
+  {
+    "id": "q21",
+    "question": "What is the maximum allowed gift value an employee may accept?",
+    "expected_document": "Code of Conduct and Ethics",
+    "expected_page": 1,
+    "expected_clause": "Section 1.0",
+    "expected_keywords": ["$50"]
+  },
+  {
+    "id": "q22",
+    "question": "Gifts exceeding what value must be formally logged in the compliance registry?",
+    "expected_document": "Code of Conduct and Ethics",
+    "expected_page": 1,
+    "expected_clause": "Section 1.0",
+    "expected_keywords": ["$25"]
+  },
+  {
+    "id": "q23",
+    "question": "What are the rate limits for Standard tier API keys?",
+    "expected_document": "API Licensing and Terms of Service",
+    "expected_page": 1,
+    "expected_clause": "Section 2.0",
+    "expected_keywords": ["100 requests per minute"]
+  },
+  {
+    "id": "q24",
+    "question": "What are the rate limits for Enterprise tier API keys?",
+    "expected_document": "API Licensing and Terms of Service",
+    "expected_page": 1,
+    "expected_clause": "Section 2.0",
+    "expected_keywords": ["1,000 requests per minute"]
+  }
+]
