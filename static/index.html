@@ -103,6 +103,10 @@
             }
         }
         fetchStatus();
+        const urlParams = new URLSearchParams(window.location.search);
+        if (urlParams.has('q')) {
+            setTimeout(() => askPrompt(urlParams.get('q')), 600);
+        }
 
         function askPrompt(text) {
             document.getElementById('query-input').value = text;

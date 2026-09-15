@@ -5,13 +5,23 @@
   <img src="https://img.shields.io/badge/python-3.11+-blue.svg" alt="Python 3.11+" />
   <img src="https://img.shields.io/badge/FastAPI-0.110-009688.svg?logo=fastapi&logoColor=white" alt="FastAPI" />
   <img src="https://img.shields.io/badge/Vector%20DB-Qdrant%20Embedded-DC2626.svg" alt="Qdrant" />
-  <img src="https://img.shields.io/badge/Tests-4%2F4%20Passing-brightgreen.svg" alt="Tests" />
+  <a href="https://github.com/amanpratap1999/clause-iq-rag/actions/workflows/ci.yml"><img src="https://github.com/amanpratap1999/clause-iq-rag/actions/workflows/ci.yml/badge.svg" alt="CI" /></a>
   <img src="https://img.shields.io/badge/Retrieval%20Hit%20Rate-91.7%25-success.svg" alt="Hit Rate" />
   <img src="https://img.shields.io/badge/Citation%20Validity-100.0%25-success.svg" alt="Citation Validity" />
   <img src="https://img.shields.io/badge/License-MIT-green.svg" alt="License" />
 </p>
 
-ClauseIQ RAG is a production-grade enterprise retrieval-augmented generation (RAG) assistant designed for legal contracts, HR policies, and standard operating procedures (SOPs). It pairs page-bounded document chunking with embedded Qdrant vector search to deliver verbatim answers with clickable, verified clause citations.
+> **Recruiter & Engineer TL;DR:** A zero-cloud-dependency, production-grade enterprise RAG assistant that indexes complex legal agreements and enterprise policies. It completely eliminates hallucinated citations by enforcing physical page-boundary chunking and embedded Qdrant vector retrieval with sub-4ms query latency.
+
+[💻 Run Locally in 30 Seconds](#-quickstart) • [🧠 System Architecture](#-system-architecture) • [📊 Empirical Benchmarks](#-benchmark-evaluation-scorecard) • [📡 API Reference](#-api-reference)
+
+---
+
+## 📸 Application Interface
+
+<p align="center">
+  <img src="assets/screenshots/dashboard.png" alt="ClauseIQ RAG Web Interface" width="850" />
+</p>
 
 ---
 
